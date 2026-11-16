@@ -1,6 +1,4 @@
-Bro, here's the complete, updated GitHub README for **ApplySense AI**, with the correct contributor responsibilities, technical architecture, setup instructions, and AWS deployment status.
 
-Copy everything below into your repository's `README.md`.
 
 # 🚀 ApplySense AI
 

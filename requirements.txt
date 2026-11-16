@@ -1,0 +1,33 @@
+# ApplySense AI - runtime dependencies
+# Python 3.11+
+
+Flask>=3.0,<4.0
+gunicorn>=22.0,<24.0
+
+# Environment configuration and HTTP requests
+python-dotenv>=1.0,<2.0
+requests>=2.31,<3.0
+
+# Groq API through its OpenAI-compatible client
+openai>=1.40,<3.0
+
+# Structured classification and typing
+pydantic>=2.7,<3.0
+typing-extensions>=4.10,<5.0
+
+# LangGraph workflow
+langgraph>=0.2,<2.0
+
+# Gmail API and OAuth
+google-api-python-client>=2.130,<3.0
+google-auth>=2.30,<3.0
+google-auth-oauthlib>=1.2,<2.0
+
+# HTML email body fallback
+beautifulsoup4>=4.12,<5.0
+
+# LangSmith tracing (optional at runtime if not configured)
+langsmith>=0.1.90,<1.0
+
+# Development and offline testing
+pytest>=8.0,<9.0
